@@ -4,8 +4,8 @@ using TMPro;
 
 public class ChangeScenes : MonoBehaviour
 {
-    public void GoToScene()
+    public void GoToScene(string scene)
     {
-        SceneManager.LoadScene("Tour");
+        SceneManager.LoadScene(scene);
     }
 }
