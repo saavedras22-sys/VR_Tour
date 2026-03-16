@@ -109,6 +109,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_Colors.m_FadeDuration
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
       value: 0.78431374
       objectReference: {fileID: 0}
@@ -121,12 +133,28 @@ PrefabInstance:
       value: 0.23137255
       objectReference: {fileID: 0}
     - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OpenMenuIntoView, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 3303790254605654797, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7197455522135700266, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
       propertyPath: m_Sprite

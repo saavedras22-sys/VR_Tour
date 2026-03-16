@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 1462752125992174162}
   - component: {fileID: 7192961087882294225}
   - component: {fileID: 3438792529870170273}
-  - component: {fileID: 8973973744786274411}
+  - component: {fileID: 558419158667116540}
   m_Layer: 0
   m_Name: HandMenuCanvas
   m_TagString: Untagged
@@ -198,7 +198,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
---- !u!114 &8973973744786274411
+--- !u!114 &558419158667116540
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,9 +207,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3303790254605654797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9855b4a6516aaa64f8b1888d0d8808d0, type: 3}
+  m_Script: {fileID: 11500000, guid: c7cfea4566d43c3408862f65c2e467aa, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GoToAulaScene
+  m_EditorClassIdentifier: Assembly-CSharp::OpenMenuIntoView
+  distance: 2
 --- !u!1 &7545563217979391992
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +338,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 558419158667116540}
     - target: {fileID: 5937593076228008711, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_text
       value: Main menu
@@ -442,6 +447,14 @@ PrefabInstance:
     - target: {fileID: 2358739949651796299, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 558419158667116540}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5937593076228008711, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_text
@@ -549,6 +562,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 558419158667116540}
     - target: {fileID: 5937593076228008711, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_text
       value: Orario
