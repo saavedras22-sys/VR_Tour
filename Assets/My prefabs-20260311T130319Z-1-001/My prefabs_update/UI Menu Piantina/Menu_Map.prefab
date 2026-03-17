@@ -162,7 +162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3303790254605654797, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: m_Name
-      value: MenuCanvas
+      value: MenuPiantinaCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 3533658141540408081, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: m_Enabled
@@ -466,6 +466,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1621940892076072672, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -609,6 +613,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
       propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
+      propertyPath: m_FillAmount
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1621940892076072672, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
@@ -756,6 +764,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1621940892076072672, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -901,6 +913,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1621940892076072672, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1044,6 +1060,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
       propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 222181657251566342, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}
+      propertyPath: m_FillAmount
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1621940892076072672, guid: 23d494932b7e991419a8b25d2ea14612, type: 3}

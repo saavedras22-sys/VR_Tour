@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 7192961087882294225}
   - component: {fileID: 3438792529870170273}
   - component: {fileID: 558419158667116540}
+  - component: {fileID: 8619015024175115491}
   m_Layer: 0
   m_Name: HandMenuCanvas
   m_TagString: Untagged
@@ -211,6 +212,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpenMenuIntoView
   distance: 2
+--- !u!114 &8619015024175115491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3303790254605654797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc409709953f154498d0de9d943c849f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScenes
 --- !u!1 &7545563217979391992
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,9 +352,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 558419158667116540}
+      objectReference: {fileID: 8619015024175115491}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScenes, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5937593076228008711, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_text
       value: "Men\xF9 principale"
@@ -566,6 +603,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 558419158667116540}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760014288967624163, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 6821922600720075287, guid: db6628f69e9384d47a1a16613b6e95b8, type: 3}
     - target: {fileID: 5937593076228008711, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_text
       value: Orario

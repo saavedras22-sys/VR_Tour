@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class OpenMenuIntoView : MonoBehaviour
 {
-    public float distance = 0.6f; // Distance from the camera
+    public float distance = 2; // Distance from the camera
     private bool menuPresent = false;
     private GameObject lastMenuOpened;
     public void OpenMenu(GameObject menuParent)
