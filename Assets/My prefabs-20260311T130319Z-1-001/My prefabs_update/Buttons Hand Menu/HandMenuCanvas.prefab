@@ -344,7 +344,7 @@ PrefabInstance:
       objectReference: {fileID: 558419158667116540}
     - target: {fileID: 5937593076228008711, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_text
-      value: Main menu
+      value: "Men\xF9 principale"
       objectReference: {fileID: 0}
     - target: {fileID: 7470185707632881474, guid: 4761cc71366bb944abb30a5becc57d24, type: 3}
       propertyPath: m_Name
