@@ -328,11 +328,49 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1935004755021772108}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ImageChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeImage, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1935004755021772108}
   m_SourcePrefab: {fileID: 100100000, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+--- !u!1 &743886489519618536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+  m_PrefabInstance: {fileID: 979663230131305696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1935004755021772108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743886489519618536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de79cb00001a5543818f8a94f62f771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeImage
+  oldImage: {fileID: 7808506138251205465}
+  newImage: {fileID: 21300000, guid: 8a6c8081f61427944ae0027b8c6e0943, type: 3}
 --- !u!224 &5567104431652845537 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4673088762611714817, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
@@ -450,11 +488,49 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 9125414148692516321}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ImageChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeImage, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9125414148692516321}
   m_SourcePrefab: {fileID: 100100000, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+--- !u!1 &717748576466744305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+  m_PrefabInstance: {fileID: 1026630298943371001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9125414148692516321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717748576466744305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de79cb00001a5543818f8a94f62f771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeImage
+  oldImage: {fileID: 7808506138251205465}
+  newImage: {fileID: 21300000, guid: 8fa54158295e84c4ea0998397c1b882e, type: 3}
 --- !u!224 &5685081673423355384 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4673088762611714817, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
@@ -572,11 +648,49 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7138711417433619993}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ImageChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeImage, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7138711417433619993}
   m_SourcePrefab: {fileID: 100100000, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+--- !u!1 &1200653687492013377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+  m_PrefabInstance: {fileID: 1685246196328884297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7138711417433619993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200653687492013377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de79cb00001a5543818f8a94f62f771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeImage
+  oldImage: {fileID: 7808506138251205465}
+  newImage: {fileID: 21300000, guid: 90c2578d58bdfea44b09f73bcf477ceb, type: 3}
 --- !u!224 &6321108861832241992 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4673088762611714817, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
@@ -793,6 +907,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1675148681373084487, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
   m_PrefabInstance: {fileID: 4376953119499161051}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7808506138251205465 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5828622576777336450, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+  m_PrefabInstance: {fileID: 4376953119499161051}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &6002688363700776899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -905,16 +1030,54 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7068953814449297847}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ImageChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeImage, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7068953814449297847}
   m_SourcePrefab: {fileID: 100100000, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
 --- !u!224 &1411861145145713858 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4673088762611714817, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
   m_PrefabInstance: {fileID: 6002688363700776899}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6090963555505072843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+  m_PrefabInstance: {fileID: 6002688363700776899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7068953814449297847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6090963555505072843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de79cb00001a5543818f8a94f62f771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeImage
+  oldImage: {fileID: 7808506138251205465}
+  newImage: {fileID: 21300000, guid: d9695a343d0f834469f8871c85684f62, type: 3}
 --- !u!1001 &6134045574719339595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1027,16 +1190,54 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5072621428180416899}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ImageChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056489443045216169, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeImage, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5072621428180416899}
   m_SourcePrefab: {fileID: 100100000, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
 --- !u!224 &1583759136659912522 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4673088762611714817, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
   m_PrefabInstance: {fileID: 6134045574719339595}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5974631445741205827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 561443993040946440, guid: 88e435152d54ac1478ea807da2c81baa, type: 3}
+  m_PrefabInstance: {fileID: 6134045574719339595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5072621428180416899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974631445741205827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de79cb00001a5543818f8a94f62f771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeImage
+  oldImage: {fileID: 7808506138251205465}
+  newImage: {fileID: 21300000, guid: caf4e610176d0b642b889fa71c6a9e9f, type: 3}
 --- !u!1001 &8175746305442562920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1045,6 +1246,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3922028819214454968}
     m_Modifications:
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2877920508477021468}
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ImageChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeImage, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2741253983181358371, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1132,8 +1349,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6997011449344854826, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2877920508477021468}
   m_SourcePrefab: {fileID: 100100000, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+--- !u!1 &1183449607122143298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6997011449344854826, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+  m_PrefabInstance: {fileID: 8175746305442562920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2877920508477021468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183449607122143298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de79cb00001a5543818f8a94f62f771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeImage
+  oldImage: {fileID: 7808506138251205465}
+  newImage: {fileID: 21300000, guid: c787cf672d84be34fb84e30623e6e561, type: 3}
 --- !u!224 &6304184109664798283 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2741253983181358371, guid: b87707704e2d52243879723dd39c0e51, type: 3}
