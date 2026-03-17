@@ -36,7 +36,7 @@ public class FollowView : MonoBehaviour
         // Calculate the target position in front of the camera
         Vector3 targetPosition = camTransform.position + camTransform.forward * distance;
 
-        targetPosition.y = 0.6f;
+        targetPosition.y = 0.2f;
         targetPosition.x += 0.2f;
         targetPosition.y += 0.2f;
         // Option A: Instant snap to view
