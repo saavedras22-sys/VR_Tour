@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8727120542007802008}
   - component: {fileID: 9094977780088538505}
   - component: {fileID: 1158263439028791188}
+  - component: {fileID: 1992642151773658928}
   m_Layer: 0
   m_Name: AulaNumberText
   m_TagString: Untagged
@@ -34,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 340.3, y: 2.5}
-  m_SizeDelta: {x: 640.5, y: 69}
+  m_AnchoredPosition: {x: 446.2, y: 2.5}
+  m_SizeDelta: {x: 852.3, y: 69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9094977780088538505
 CanvasRenderer:
@@ -65,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aula x - Laboratorio di xy
+  m_text: Aula x - Laboratorio di yz
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cbdfe0ecbfb0b514386aa3c2a2015716, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: cbdfe0ecbfb0b514386aa3c2a2015716, type: 2}
@@ -99,7 +100,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -137,6 +138,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1992642151773658928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548160256683491581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50514f2a5db72a4f8d1869cb4102cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeText
 --- !u!1 &5673900034306740138
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,7 +175,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5673900034306740138}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
@@ -171,7 +184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -242, y: -56}
+  m_AnchoredPosition: {x: -241.33789, y: -56}
   m_SizeDelta: {x: 1200, y: 265}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3370539021618271820
@@ -194,7 +207,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+<<<<<<< Updated upstream
   m_Material: {fileID: 2100000, guid: 1603f8fff566e3e4ca4769da120019b3, type: 2}
+=======
+  m_Material: {fileID: 2100000, guid: 12f9cb1276789c74097dc49588dc0b68, type: 2}
+>>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -626.2, y: 484.2}
-  m_SizeDelta: {x: -1252.7, y: -968.4}
+  m_AnchoredPosition: {x: -522.4, y: 484.2}
+  m_SizeDelta: {x: -1045.1, y: -968.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8306262115804176260
 CanvasRenderer:

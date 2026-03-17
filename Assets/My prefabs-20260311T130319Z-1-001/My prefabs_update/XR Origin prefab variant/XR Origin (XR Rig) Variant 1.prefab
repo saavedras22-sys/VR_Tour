@@ -31,7 +31,11 @@ RectTransform:
   m_LocalScale: {x: 0.002, y: 0.002, z: 0.002}
   m_ConstrainProportionsScale: 1
   m_Children:
+<<<<<<< Updated upstream
   - {fileID: 7822080303258859270}
+=======
+  - {fileID: 8960286788898974112}
+>>>>>>> Stashed changes
   m_Father: {fileID: 2894846774258012876}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -854,7 +858,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 2894846774671877566}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &4426642708146391632
+=======
+--- !u!1001 &3295036087793325302
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -967,6 +975,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+<<<<<<< Updated upstream
 --- !u!224 &7822080303258859270 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5900564890207223126, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
@@ -1042,6 +1051,12 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5510304086442753887, guid: db6628f69e9384d47a1a16613b6e95b8, type: 3}
   m_PrefabInstance: {fileID: 5854860733085834239}
+=======
+--- !u!224 &8960286788898974112 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5900564890207223126, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+  m_PrefabInstance: {fileID: 3295036087793325302}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6735747963781705379
 PrefabInstance:
