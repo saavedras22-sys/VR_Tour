@@ -5,9 +5,9 @@ public class SpawnInView : MonoBehaviour
     public float distance = 2; // Distance from the camera
     private bool positioned = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        /*// Get the camera's position and forward direction
+        // Get the camera's position and forward direction
         Transform camTransform = Camera.main.transform;
         
         // Calculate the target position in front of the camera (ignores Y)
@@ -19,12 +19,12 @@ public class SpawnInView : MonoBehaviour
         transform.position = targetPosition;
 
         transform.LookAt(camTransform);
-        transform.Rotate(0, 180, 0); // LookAt points at the back of the menu*/
+        transform.Rotate(0, 180, 0); // LookAt points at the back of the menu
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {/*
         if(!positioned)
         {
             // Get the camera's position and forward direction
@@ -41,6 +41,6 @@ public class SpawnInView : MonoBehaviour
             transform.LookAt(camTransform);
             transform.Rotate(0, 180, 0); // LookAt points at the back of the menu
             positioned = true;
-        }
+        }*/
     }
 }
