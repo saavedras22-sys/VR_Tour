@@ -30,8 +30,115 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 823388441959075853}
+  - {fileID: 6782375267144556988}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1497230918049698852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5544604614355075276}
+    m_Modifications:
+    - target: {fileID: 3170268390313592113, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170268390313592113, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6470372019932617568, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_Name
+      value: SceneLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 6470372019932617568, guid: 0b506838844311346a935057fd52406b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b506838844311346a935057fd52406b, type: 3}
+--- !u!114 &4330327309889205932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2945163015526015624, guid: 0b506838844311346a935057fd52406b, type: 3}
+  m_PrefabInstance: {fileID: 1497230918049698852}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551911964925513540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63dadf3845242124ead057bbdd0bbb69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+--- !u!1 &5551911964925513540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6470372019932617568, guid: 0b506838844311346a935057fd52406b, type: 3}
+  m_PrefabInstance: {fileID: 1497230918049698852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6782375267144556988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5393321999887922584, guid: 0b506838844311346a935057fd52406b, type: 3}
+  m_PrefabInstance: {fileID: 1497230918049698852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2040713051716909898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -196,7 +303,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6344227552309130505, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6844730893895987617, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
@@ -252,9 +360,33 @@ MonoBehaviour:
   onLongClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6979422901442970401}
-        m_TargetAssemblyTypeName: GoToAulaScene, Assembly-CSharp
-        m_MethodName: GoToThisAulaScene
+      - m_Target: {fileID: 5551911964925513540}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Aula1
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4330327309889205932}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: click
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Aula1
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4330327309889205932}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: setScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -262,7 +394,19 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Aula1
-          m_BoolArgument: 0
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4330327309889205932}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Aula1
+          m_BoolArgument: 1
         m_CallState: 2
   fillImage: {fileID: 8222473626907205824}
 --- !u!1 &552816194661903074 stripped
