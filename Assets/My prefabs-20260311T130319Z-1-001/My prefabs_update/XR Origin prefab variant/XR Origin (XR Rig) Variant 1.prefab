@@ -225,7 +225,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6550394537518300058}
+      - m_Target: {fileID: 7690896531288439517}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_HoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6550394537518300058}
+      - m_Target: {fileID: 7690896531288439517}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1276,7 +1276,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465015095907671, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -353
+      value: -482
       objectReference: {fileID: 0}
     - target: {fileID: 2465015095907671, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1288,7 +1288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -361.5375
+      value: -258
       objectReference: {fileID: 0}
     - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1516,6 +1516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandMenuCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3303790254605654797, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5751356600562586356, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -1532,6 +1536,11 @@ PrefabInstance:
 --- !u!224 &5790983464516127383 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1675148681373084487, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
+  m_PrefabInstance: {fileID: 5143926744651260368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7690896531288439517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3303790254605654797, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
   m_PrefabInstance: {fileID: 5143926744651260368}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5854860733085834239
@@ -1817,11 +1826,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
---- !u!1 &6550394537518300058 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3303790254605654797, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
-  m_PrefabInstance: {fileID: 8592523508649894039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6917973516263476176 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1675148681373084487, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
