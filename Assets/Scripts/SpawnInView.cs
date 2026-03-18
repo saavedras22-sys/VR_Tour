@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpawnInView : MonoBehaviour
 {
-    public float distance = 2; // Distance from the camera
+    public float distance; // Distance from the camera
     private bool positioned = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()

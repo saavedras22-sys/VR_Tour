@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29e95a0ef331d94abcc121810d8d2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnInView
-  distance: 2
+  distance: 3.5
 --- !u!1 &812882594
 GameObject:
   m_ObjectHideFlags: 0
