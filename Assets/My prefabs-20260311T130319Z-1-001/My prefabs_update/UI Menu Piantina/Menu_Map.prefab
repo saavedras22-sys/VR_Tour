@@ -164,9 +164,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuPiantinaCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3352166141703563417, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillImage
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3533658141540408081, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012595296216574081, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153353118693082753, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillImage
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6344227552309130505, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: m_Enabled
@@ -184,9 +196,33 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7192312859434840043, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305022008716706031, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305022008716706031, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: requiredHoldTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305022008716706031, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: onLongClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305022008716706031, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: onLongClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7475958958967082275, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660610184694611627, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillImage
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8858576978811532135, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -196,9 +232,13 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6344227552309130505, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5237971659690205887, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+    - {fileID: 7994287179972732373, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+    - {fileID: 8435797039664051349, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+    - {fileID: 2568207364372603559, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+    - {fileID: 5378759199045438655, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6844730893895987617, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       insertIndex: -1

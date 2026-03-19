@@ -334,7 +334,6 @@ GameObject:
   - component: {fileID: 677011152}
   - component: {fileID: 677011151}
   - component: {fileID: 677011150}
-  - component: {fileID: 677011154}
   - component: {fileID: 677011155}
   - component: {fileID: 677011156}
   m_Layer: 0
@@ -446,18 +445,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &677011154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677011147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57bbd152c7044b14d9cd20f9d0c5c33a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnInFrontOfPlayer
 --- !u!114 &677011155
 MonoBehaviour:
   m_ObjectHideFlags: 0
