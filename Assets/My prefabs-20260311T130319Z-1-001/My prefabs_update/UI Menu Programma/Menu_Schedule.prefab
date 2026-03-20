@@ -244,6 +244,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8427633467720935235}
     m_Modifications:
     - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -355,6 +359,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5883985565270956528, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6113530890896363375, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_text
       value: Sistemi e Reti
@@ -400,6 +408,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8427633467720935235}
     m_Modifications:
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -511,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 2741253983181358371, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883985565270956528, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6113530890896363375, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_text
@@ -835,6 +851,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8427633467720935235}
     m_Modifications:
     - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -946,6 +966,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5883985565270956528, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6997011449344854826, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_Name
       value: ButtonSchedule
@@ -983,6 +1007,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8427633467720935235}
     m_Modifications:
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -1095,6 +1123,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5883985565270956528, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6113530890896363375, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_text
       value: Gestione Progetto
@@ -1140,6 +1172,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8427633467720935235}
     m_Modifications:
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -1252,6 +1288,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5883985565270956528, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6113530890896363375, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_text
       value: Telecomunicazioni
@@ -1297,6 +1337,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8427633467720935235}
     m_Modifications:
+    - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2376920777443770763, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -1408,6 +1452,10 @@ PrefabInstance:
     - target: {fileID: 2741253983181358371, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883985565270956528, guid: b87707704e2d52243879723dd39c0e51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6113530890896363375, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_text
